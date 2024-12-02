@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/TrEv0rRrRr/qr-component)
+- Live Site URL: [Live site URL](https://trev0rrrrr.github.io/qr-component/)
 
 ## My process
 
@@ -35,39 +35,40 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="container">
+  <div class="img-container">
+    <img src="images/image-qr-code.png" alt="qr_image.png" />
+  </div>
+  <div class="text-container">
+    <p class="p-improve">
+      Improve your front-end<br />
+      skills by building projects
+    </p>
+    <p class="p-scanqr">
+      Scan the QR code to visit Frontend<br />
+      Mentor and take your coding skills to<br />
+      the next level
+    </p>
+  </div>
+</div>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container {
+  width: 300px;
+  background-color: var(--White);
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+  text-align: center;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I'd like to continue learning about front-end and in the future all about back-end.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/TrEv0rRrRr)
